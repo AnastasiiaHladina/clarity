@@ -1,0 +1,245 @@
+[
+  {
+    "id": "1",
+    "name": "hdd_1",
+    "lun": 1,
+    "busType": 0,
+    "blockSize": 4096,
+    "sizeInBlocks": 345633
+  }, {
+    "id": "2",
+    "name": "hdd_2",
+    "lun": 12,
+    "busType": 1,
+    "blockSize": 12357,
+    "sizeInBlocks": 54221
+  }, {
+    "id": "3",
+    "name": "hdd_3",
+    "lun": 18,
+    "busType": 2,
+    "blockSize": 790998,
+    "sizeInBlocks": 5432899
+  }, {
+    "id": "4",
+    "name": "hdd_4",
+    "lun": 91,
+    "busType": 3,
+    "blockSize": 9800666,
+    "sizeInBlocks": 76890
+  },
+
+
+  {
+    "id": "5",
+    "name": "hdd_5",
+    "lun": 51,
+    "busType": 0,
+    "blockSize": 1244,
+    "sizeInBlocks": 189087
+  }, {
+    "id": "6",
+    "name": "hdd_6",
+    "lun": 47,
+    "busType": 1,
+    "blockSize": 1234,
+    "sizeInBlocks": 453212
+  }, {
+    "id": "7",
+    "name": "hdd_7",
+    "lun": 99,
+    "busType": 2,
+    "blockSize": 4211,
+    "sizeInBlocks": 246766
+  }, {
+    "id": "8",
+    "name": "hdd_8",
+    "lun": 54,
+    "busType": 3,
+    "blockSize": 6790,
+    "sizeInBlocks": 9643432
+  },
+
+
+  {
+    "id": "9",
+    "name": "hdd_9",
+    "lun": 34,
+    "busType": 0,
+    "blockSize": 3689,
+    "sizeInBlocks": 32221
+  }, {
+    "id": "10",
+    "name": "hdd_10",
+    "lun": 23,
+    "busType": 1,
+    "blockSize": 9907,
+    "sizeInBlocks": 76545
+  }, {
+    "id": "11",
+    "name": "hdd_11",
+    "lun": 45,
+    "busType": 2,
+    "blockSize": 9875,
+    "sizeInBlocks": 123456
+  }, {
+    "id": "12",
+    "name": "hdd_12",
+    "lun": 280,
+    "busType": 3,
+    "blockSize": 3245,
+    "sizeInBlocks": 787643
+  },
+
+
+  {
+    "id": "13",
+    "name": "hdd_13",
+    "lun": 20,
+    "busType": 0,
+    "blockSize": 1322,
+    "sizeInBlocks": 4233
+  }, {
+    "id": "14",
+    "name": "hdd_14",
+    "lun": 10,
+    "busType": 1,
+    "blockSize": 35678,
+    "sizeInBlocks": 87655
+  }, {
+    "id": "15",
+    "name": "hdd_15",
+    "lun": 21,
+    "busType": 2,
+    "blockSize": 65555,
+    "sizeInBlocks": 6000
+  }, {
+    "id": "16",
+    "name": "hdd_16",
+    "lun": 5699,
+    "busType": 3,
+    "blockSize": 767,
+    "sizeInBlocks": 544344
+  }, {
+    "id": "17",
+    "name": "hdd_17",
+    "lun": 1,
+    "busType": 0,
+    "blockSize": 4096,
+    "sizeInBlocks": 345633
+  }, {
+    "id": "18",
+    "name": "hdd_18",
+    "lun": 12,
+    "busType": 1,
+    "blockSize": 12357,
+    "sizeInBlocks": 54221
+  }, {
+    "id": "19",
+    "name": "hdd_19",
+    "lun": 18,
+    "busType": 2,
+    "blockSize": 790998,
+    "sizeInBlocks": 5432899
+  }, {
+    "id": "20",
+    "name": "hdd_20",
+    "lun": 91,
+    "busType": 3,
+    "blockSize": 9800666,
+    "sizeInBlocks": 76890
+  },
+
+
+  {
+    "id": "21",
+    "name": "hdd_21",
+    "lun": 51,
+    "busType": 0,
+    "blockSize": 1244,
+    "sizeInBlocks": 189087
+  }, {
+    "id": "22",
+    "name": "hdd_22",
+    "lun": 47,
+    "busType": 1,
+    "blockSize": 1234,
+    "sizeInBlocks": 453212
+  }, {
+    "id": "23",
+    "name": "hdd_23",
+    "lun": 99,
+    "busType": 2,
+    "blockSize": 4211,
+    "sizeInBlocks": 246766
+  }, {
+    "id": "24",
+    "name": "hdd_24",
+    "lun": 54,
+    "busType": 3,
+    "blockSize": 6790,
+    "sizeInBlocks": 9643432
+  },
+
+
+  {
+    "id": "25",
+    "name": "hdd_25",
+    "lun": 34,
+    "busType": 0,
+    "blockSize": 3689,
+    "sizeInBlocks": 32221
+  }, {
+    "id": "26",
+    "name": "hdd_26",
+    "lun": 23,
+    "busType": 1,
+    "blockSize": 9907,
+    "sizeInBlocks": 76545
+  }, {
+    "id": "27",
+    "name": "hdd_27",
+    "lun": 45,
+    "busType": 2,
+    "blockSize": 9875,
+    "sizeInBlocks": 123456
+  }, {
+    "id": "28",
+    "name": "hdd_28",
+    "lun": 280,
+    "busType": 3,
+    "blockSize": 3245,
+    "sizeInBlocks": 787643
+  },
+
+
+  {
+    "id": "29",
+    "name": "hdd_29",
+    "lun": 20,
+    "busType": 0,
+    "blockSize": 1322,
+    "sizeInBlocks": 4233
+  }, {
+    "id": "30",
+    "name": "hdd_30",
+    "lun": 10,
+    "busType": 1,
+    "blockSize": 35678,
+    "sizeInBlocks": 87655
+  }, {
+    "id": "31",
+    "name": "hdd_31",
+    "lun": 21,
+    "busType": 2,
+    "blockSize": 65555,
+    "sizeInBlocks": 6000
+  }, {
+    "id": "32",
+    "name": "hdd_32",
+    "lun": 5699,
+    "busType": 3,
+    "blockSize": 767,
+    "sizeInBlocks": 544344
+  }
+]

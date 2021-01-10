@@ -1,0 +1,78 @@
+
+<div class="container">
+  <h2>Disks</h2>
+
+  <div class="alert alert-danger" role="alert" *ngIf="errorMsg">
+    <div class="alert-items">
+      <div class="alert-item static">
+        <div class="alert-icon-wrapper">
+          <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+        </div>
+        <span class="alert-text">Attention! <br>
+          {{ errorMsg }}
+        </span>
+      </div>
+    </div>
+    <button class="btn alert-action" (click)="discard()">
+      <clr-icon aria-hidden="true" shape="close"></clr-icon>
+    </button>
+  </div>
+
+  <clr-alert *ngIf="showQuestion" [clrAlertClosable]="false">
+    <clr-alert-item>
+      <span class="alert-text">
+          Are you sure want to {{ whichActions }} driver?
+      </span>
+      <div class="alert-actions">
+        <div class="alert-actions" *ngIf="whichActions === 'disable'">
+          <button class="btn alert-action" (click)="allowDisable()">Allow</button>
+        </div>
+        <div class="alert-actions" *ngIf="whichActions === 'enable'">
+          <button class="btn alert-action" (click)="allowEnable()">Allow</button>
+        </div>
+      </div>
+      <button class="btn alert-action" (click)="discard()">
+        <clr-icon aria-hidden="true" shape="close"></clr-icon>
+      </button>
+    </clr-alert-item>
+  </clr-alert>
+
+  <div class="table">
+    <clr-dg-action-bar>
+      <div class="btn-group">
+        <button type="button" class="btn  btn-secondary" (click)="editVisibility('enable')">Enable Disk</button>
+        <button type="button" class="btn btn-secondary" (click)="editVisibility('disable')" >Disable Disk</button>
+      </div>
+    </clr-dg-action-bar>
+
+    <clr-datagrid [(clrDgSelected)]="selectedDisks"  [clrDgRowSelection]="true">
+      <clr-dg-column [clrDgField]="'id'">Id</clr-dg-column>
+      <clr-dg-column [clrDgField]="'name'">Name</clr-dg-column>
+      <clr-dg-column [clrDgField]="'busType'">Bus</clr-dg-column>
+      <clr-dg-column [clrDgField]="'blockSize'">Block Size</clr-dg-column>
+      <clr-dg-column [clrDgField]="'lun'">Lun</clr-dg-column>
+      <clr-dg-column [clrDgField]="'sizeInBlocks'" [clrDgColType]="'number'">Size in blocks</clr-dg-column>
+
+      <clr-dg-row *clrDgItems="let disk of disks$ | async"
+                  [ngClass]="{disabled: compare(disk)}"
+                  [clrDgItem]="disk">
+        <clr-dg-cell>{{disk.id}}</clr-dg-cell>
+        <clr-dg-cell>{{disk.name}}</clr-dg-cell>
+        <clr-dg-cell>{{disk.busType | busType}}</clr-dg-cell>
+        <clr-dg-cell>{{disk.blockSize}}</clr-dg-cell>
+        <clr-dg-cell>{{disk.lun}}</clr-dg-cell>
+        <clr-dg-cell>{{disk.sizeInBlocks}}</clr-dg-cell>
+      </clr-dg-row>
+
+      <clr-dg-footer>
+        <clr-dg-pagination #pagination [clrDgPageSize]="10">
+          <clr-dg-page-size [clrPageSizeOptions]="[10,20,50,100]">Disks per page</clr-dg-page-size>
+          {{pagination.firstItem + 1}} - {{pagination.lastItem + 1}}
+          of {{pagination.totalItems}} disks
+        </clr-dg-pagination>
+      </clr-dg-footer>
+    </clr-datagrid>
+
+  </div>
+</div>
+
