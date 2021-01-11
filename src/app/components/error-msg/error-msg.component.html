@@ -1,0 +1,15 @@
+<div class="alert alert-danger" role="alert" *ngIf="errorMsg">
+  <div class="alert-items">
+    <div class="alert-item static">
+      <div class="alert-icon-wrapper">
+        <clr-icon class="alert-icon" shape="exclamation-circle"></clr-icon>
+      </div>
+      <span class="alert-text">Attention! <br>
+        {{ errorMsg }}
+        </span>
+    </div>
+  </div>
+  <button class="btn alert-action" (click)="discard()">
+    <clr-icon aria-hidden="true" shape="close"></clr-icon>
+  </button>
+</div>

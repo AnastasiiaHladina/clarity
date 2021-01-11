@@ -6,11 +6,15 @@ import { ClarityModule } from '@clr/angular';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { BusTypePipe } from './pipe/busType/bus-type.pipe';
+import { ErrorMsgComponent } from './components/error-msg/error-msg.component';
+import { InfoMsgComponent } from './components/info-msg/info-msg.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    BusTypePipe
+    BusTypePipe,
+    ErrorMsgComponent,
+    InfoMsgComponent,
   ],
   imports: [
     BrowserModule,
