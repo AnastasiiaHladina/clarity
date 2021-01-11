@@ -4,12 +4,12 @@
 #### The user can perform the following operations on disks:
 ##### - Drive connection
 ##### - Disconnect disk
-#### User can connect or disconnect only one drive currently selected from list
-#### The user must confirm the selected operation
-#### Should be notification with information about the current operation
-#### User cannot enable / disable disk if disk already in this state
-#### It is necessary to notify the client about the impossibility of this operation
-#### After the complete shutdown operation, all information on this disk displayed in the list of drives in gray
+###### User can connect or disconnect only one drive currently selected from list
+###### The user must confirm the selected operation
+###### Should be notification with information about the current operation
+###### User cannot enable / disable disk if disk already in this state
+###### It is necessary to notify the client about the impossibility of this operation
+###### After the complete shutdown operation, all information on this disk displayed in the list of drives in gray
 
 ###### Table with disks info
 ---
